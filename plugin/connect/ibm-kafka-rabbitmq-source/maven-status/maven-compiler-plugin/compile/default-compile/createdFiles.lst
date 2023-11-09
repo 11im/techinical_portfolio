@@ -1,0 +1,13 @@
+com/ibm/eventstreams/connect/rabbitmqsource/schema/EnvelopeSchema.class
+com/ibm/eventstreams/connect/rabbitmqsource/schema/ValueSchema.class
+com/ibm/eventstreams/connect/rabbitmqsource/ConnectConsumer.class
+com/ibm/eventstreams/connect/rabbitmqsource/schema/KeySchema.class
+com/ibm/eventstreams/connect/rabbitmqsource/schema/HeaderSchema.class
+com/ibm/eventstreams/connect/rabbitmqsource/RabbitMQSourceConnector.class
+com/ibm/eventstreams/connect/rabbitmqsource/sourcerecord/RabbitMQSourceRecordFactory.class
+com/ibm/eventstreams/connect/rabbitmqsource/sourcerecord/SourceRecordConcurrentLinkedQueue.class
+com/ibm/eventstreams/connect/rabbitmqsource/sourcerecord/RabbitMQSourceRecordFactory$1.class
+com/ibm/eventstreams/connect/rabbitmqsource/schema/BasicPropertiesSchema.class
+com/ibm/eventstreams/connect/rabbitmqsource/config/RabbitMQSourceConnectorConfig.class
+com/ibm/eventstreams/connect/rabbitmqsource/RabbitMQSourceTask.class
+com/ibm/eventstreams/connect/rabbitmqsource/config/RabbitMQConnectorConfig.class

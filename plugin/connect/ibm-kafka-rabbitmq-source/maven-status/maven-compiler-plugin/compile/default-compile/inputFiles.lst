@@ -1,0 +1,12 @@
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/sourcerecord/SourceRecordConcurrentLinkedQueue.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/schema/EnvelopeSchema.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/schema/BasicPropertiesSchema.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/RabbitMQSourceTask.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/schema/HeaderSchema.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/RabbitMQSourceConnector.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/schema/ValueSchema.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/schema/KeySchema.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/config/RabbitMQConnectorConfig.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/ConnectConsumer.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/config/RabbitMQSourceConnectorConfig.java
+/home/jhim/kafka/connectors/kafka-connect-rabbitmq-source/src/main/java/com/ibm/eventstreams/connect/rabbitmqsource/sourcerecord/RabbitMQSourceRecordFactory.java

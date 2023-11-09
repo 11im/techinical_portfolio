@@ -1,0 +1,8 @@
+version: '3'
+services:
+  telegraf:
+    container_name: telegraf
+    image: telegraf:latest
+    restart: always
+    volumes:
+      - "../config/telegraf/telegraf.conf:/etc/telegraf/telegraf.conf"
