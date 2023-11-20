@@ -1,10 +1,10 @@
 # Technical Portfolio
-### [Python, SQL, R, Java, Scala, Go, C/C++, Javascript 등 데이터 처리 언어 활용 능력](./src/src.md)
-    Go 언어를 활용하여 Nested Json을 Parsing하여 작은 단위로 쪼개는 프로세스를 수행하고, Python을 활용하여 수집된 데이터를 추출하여 parquet로 압축합니다.
-### [Linux, Docker, Virtual Machines, Kubernetes 등을 활용한 데이터 활용 및 분석을   위한 환경 구축 여부](./yaml/docekr.md)
-    linux 환경에서 Docker를 활용하여 전체 데이터 수집 인프라를 구축했습니다.
-### [Amazon AWS, Google GCP, MS Azure 등 클라우드 서비스 활용 능력](./aws/aws.md)
-    AWS 서비스를 활용하여 수집된 데이터를 분석했습니다.
+### Python, SQL, R, Java, Scala, Go, C/C++, Javascript 등 데이터 처리 언어 활용 능력
+**[src.md](./src/src.md)** : Go 언어를 활용하여 Nested Json을 Parsing하여 작은 단위로 쪼개는 프로세스를 수행하고, Python을 활용하여 수집된 데이터를 추출하여 parquet로 압축합니다.
+### Linux, Docker, Virtual Machines, Kubernetes 등을 활용한 데이터 활용 및 분석을 위한 환경 구축 여부
+**[./yaml/docker.md](./yaml/docekr.md)** : linux 환경에서 Docker를 활용하여 전체 데이터 수집 인프라를 구축했습니다.
+### Amazon AWS, Google GCP, MS Azure 등 클라우드 서비스 활용 능력
+**[./aws/aws.md](./aws/aws.md)** : AWS 서비스를 활용하여 수집된 데이터를 분석했습니다.
 
 
 </br>
