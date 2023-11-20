@@ -7,7 +7,7 @@
     },
     "EnergyPlatformLayer": {
             "Name": "Mirae building Microgrid",
-            "Broker_IP": "117.17.198.17",
+            "Broker_IP": "$Broker_IP",
             "Protocol": "AMQP-0-9-1",
             "Security": "SSL/TLS1.3",
             "Cipher Algorithm": "AES256_GCM",
