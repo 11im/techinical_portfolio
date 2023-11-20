@@ -1,5 +1,17 @@
+# Technical Portfolio
+### [Python, SQL, R, Java, Scala, Go, C/C++, Javascript 등 데이터 처리 언어 활용 능력](./src/src.md)
+    Go 언어를 활용하여 Nested Json을 Parsing하여 작은 단위로 쪼개는 프로세스를 수행하고, Python을 활용하여 수집된 데이터를 추출하여 parquet로 압축합니다.
+### [Linux, Docker, Virtual Machines, Kubernetes 등을 활용한 데이터 활용 및 분석을   위한 환경 구축 여부](./yaml/docekr.md)
+    linux 환경에서 Docker를 활용하여 전체 데이터 수집 인프라를 구축했습니다.
+### [Amazon AWS, Google GCP, MS Azure 등 클라우드 서비스 활용 능력](./aws/aws.md)
+    AWS 서비스를 활용하여 수집된 데이터를 분석했습니다.
+
+
+</br>
+</br>
+
 # Abtract
-이 프로젝트는 교내 마이크로 그리드의 센서 데이터를 서버에서 저장하는 파이프라인을 구축하기위한 파일럿 프로젝트로 진행되었습니다. 마이크로 그리드에서는 OPC UA를 활용하여 RabbitMQ를 통해 데이터를 외부로 전송합니다. 데이터는 Json 포맷으로 sample 디렉토리에 저장된 sample.json과 같은 스키마입니다.
+이 프로젝트는 교내 마이크로 그리드의 센서 데이터를 서버에서 저장하는 파이프라인을 구축하기위한 파일럿 프로젝트 소스 코드입니다. 마이크로 그리드에서는 OPC UA를 활용하여 RabbitMQ를 통해 데이터를 외부로 전송합니다. 데이터는 Json 포맷으로 sample 디렉토리에 저장된 [sample.json](./sample/sample.json)과 같은 스키마입니다.
 파이프라인은 다음과 같은 순서로 데이터를 InfluxDB에 저장합니다.
 
 1. RabbitMQ의 Queue에 있는 데이터를 Kafka Connect에서 가져온다.
@@ -24,12 +36,13 @@ Parser는 Golang으로 구성되었으며, 추출 및 압축 코드는 Python(ip
 # Directories
 1. yaml : docker-compose를 위한 yaml 파일들
 2. config : docker 설정 파일들
-3. python : 활용한 Python Script
-4. plugin : Kafka Connect를 위한 Connect Plugin
-5. go-kafka-json-parser : golang 기반 json parser code
-6. aws : AWS 서비스들을 활용하기 위한 Bash Script
-7. sample : sample.json
-8. data : Apache Kafka와 InfluxDB의 데이터와 압축된 Parquet 파일 저장 경로
+3. plugin : Kafka Connect를 위한 Connect Plugin
+4. src : 작성한 코드
+    1. go-kafka-json-parser : golang 기반 json parser code
+    2. python : 활용한 Python Script
+5. aws : AWS 서비스들을 활용하기 위한 Bash Script
+6. sample : sample.json
+7. data : Apache Kafka와 InfluxDB의 데이터와 압축된 Parquet 파일 저장 경로
 
 
 </br>
@@ -52,12 +65,10 @@ Parser는 Golang으로 구성되었으며, 추출 및 압축 코드는 Python(ip
 ```make topic``` : Kafka Topic 생성 </br>
 ```make telegraf``` : Telegraf 생성 </br>
 ```make telegraf``` : Telegraf 생성 </br>
-```make connector``` : RabbitMQ와 Kafka 연결 </br>
-```make parser``` : Parser 빌드 및 실행 </br>
-```make simulation``` : Simulation 시작 </br>
 
 # AWS
 ### AWS CLI 설치 후 Configure 해야함 </br>
+
 ```aws_cli.sh``` : AWS CLI 설치 </br>
 ```aws_auto_complete.sh``` : AWS CLI 자동 완성 설정 </br>
 ```s3.sh``` : AWS S3 Bucket 생성 및 Parquet Upload </br>

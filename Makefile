@@ -51,8 +51,8 @@ topic:
 	docker exec -it kafka_mq1 kafka-topics --bootstrap-server localhost:9092 --partitions 9 --replication-factor 3 --create --topic rabbit.raw
 	docker exec -it kafka_mq1 kafka-topics --bootstrap-server localhost:9092 --partitions 9 --replication-factor 3 --create --topic rabbit.parsed
 parser:
-	cd ./go-kafka-json-parser; go mod tidy
-	cd ./go-kafka-json-parser/cmd; go build -o parser && nohup ./parser -parser 15 -consumer 9 -producer 30 -fromTopic rabbit.raw > ../err.log &
+	cd ./src//go-kafka-json-parser; go mod tidy
+	cd ./src/go-kafka-json-parser/cmd; go build -o parser && nohup ./parser -parser 15 -consumer 9 -producer 30 -fromTopic rabbit.raw > ../err.log &
 
 connector:
 	python3 ./python/connector.py
